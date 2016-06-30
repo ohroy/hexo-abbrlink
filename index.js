@@ -23,7 +23,8 @@ hexo.extend.filter.register('before_post_render', function (data) {
 		//添加我们生成的链接
 		tmpPost.abbrlink=abbrlink;
 		//生成处理后的文章
-		var postStr=front.stringify(tmpPost);
+		let postStr=front.stringify(tmpPost);
+		postStr='---\n'+postStr;
 		fs.writeFileSync(data.full_source,postStr,'utf-8');
 		log.i("已为%s生成连接%s",data.title,abbrlink);
 	}
