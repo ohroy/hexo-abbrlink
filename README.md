@@ -2,4 +2,4 @@
 
 ## info 
 
-wait to writ....
+see [this](https://post.zz173.com/detail_hexo-abbrlink.html)
