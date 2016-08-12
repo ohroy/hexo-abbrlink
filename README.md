@@ -30,3 +30,7 @@ Maximum number of posts is 65535. (For a personal blog site, this number is dece
 ## More info 
 
 see [this](https://post.zz173.com/detail/hexo-abbrlink.html)(Chinese)
+
+## ThanksFor
+
+[NoahDragon](https://github.com/NoahDragon)
