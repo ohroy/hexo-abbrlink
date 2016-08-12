@@ -35,6 +35,9 @@ abbrlink:
 The generated link will look like the following:
 
 ```
+crc16 & hex
+https://post.zz173.com/posts/66c8.html
+
 crc16 & dec
 https://post.zz173.com/posts/65535.html
 ```
@@ -49,7 +52,7 @@ https://post.zz173.com/posts/1690090958.html
 
 ## Limitation
 
-Maximum number of posts is 65535 for crc16\. (For a personal blog site, this number is decent)
+Maximum number of posts is 65535 for crc16. (For a personal blog site, this number is decent)
 
 ## More info
 
