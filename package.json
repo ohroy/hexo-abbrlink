@@ -24,6 +24,6 @@
   "homepage": "https://github.com/Rozbo/hexo-abbrlink#readme",
   "dependencies": {
     "hexo-front-matter": "^0.2.3",
-    "hexo-fs": "^0.2.2"
+    "hexo-fs": "^2.0.0"
   }
 }
