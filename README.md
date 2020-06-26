@@ -31,6 +31,12 @@ rep -- Represent (the generated link could be presented in hex or dec value)
 abbrlink:
   alg: crc32  #support crc16(default) and crc32
   rep: hex    #support dec(default) and hex
+  drafts: false #(true)Process draft,(false)Do not process draft
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+     enable: true
+     depth: 
 ```
 
 ## Sample
