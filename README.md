@@ -37,6 +37,9 @@ abbrlink:
   auto_category:
      enable: true  #true(default)
      depth:        #3(default)
+  auto_title: false #enable auto title, it can auto fill the title by path
+  auto_date: false #enable auto date, it can auto fill the date by time today
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
 ```
 
 ## Sample
@@ -60,9 +63,7 @@ https://post.zz173.com/posts/1690090958.html
 ```
 
 ## Limitation
-
-Maximum number of posts is 65535 for crc16. (For a personal blog site, this number is decent)
-
+[fixed] Maximum number of posts is 65535 for crc16. (now, if a abbrlink already exist, it will change another one and try again and again...) 
 ## More info
 
 see [this](https://post.zz173.com/detail/hexo-abbrlink.html)(Chinese)
