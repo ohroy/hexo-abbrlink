@@ -1,6 +1,6 @@
 {
   "name": "hexo-abbrlink",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "create one and only link for every post for hexo",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Rozbo/hexo-abbrlink#readme",
   "dependencies": {
-    "hexo-front-matter": "^0.2.3",
-    "hexo-fs": "^0.2.2"
+    "hexo-front-matter": "^1.0.0",
+    "hexo-fs": "^3.1.0"
   }
 }
