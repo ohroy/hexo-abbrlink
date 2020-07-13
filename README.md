@@ -37,6 +37,7 @@ abbrlink:
   auto_category:
      enable: true  #true(default)
      depth:        #3(default)
+     over_write: false 
   auto_title: false #enable auto title, it can auto fill the title by path
   auto_date: false #enable auto date, it can auto fill the date by time today
   force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
@@ -71,3 +72,8 @@ see [this](https://post.zz173.com/detail/hexo-abbrlink.html)(Chinese)
 ## ThanksFor
 
 [NoahDragon](https://github.com/NoahDragon)
+
+
+## Sponsor
+The project is develop by [JetBrains Ide](https://www.jetbrains.com/?from=puck)
+![https://www.jetbrains.com/company/brand/img/logo1.svg](https://www.jetbrains.com/?from=puck))
