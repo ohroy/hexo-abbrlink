@@ -76,4 +76,5 @@ see [this](https://post.zz173.com/detail/hexo-abbrlink.html)(Chinese)
 
 ## Sponsor
 The project is develop by [JetBrains Ide](https://www.jetbrains.com/?from=puck)
-![https://www.jetbrains.com/company/brand/img/logo1.svg](https://www.jetbrains.com/?from=puck))
+
+[![](https://www.jetbrains.com/company/brand/img/logo1.svg)](https://www.jetbrains.com/?from=puck)
