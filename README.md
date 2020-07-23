@@ -5,7 +5,7 @@
 
 A [Hexo plugin](https://hexo.io/plugins/) to generate static post link based on post titles.
 ## Suggest
-[https://github.com/rozbo/hexo-abbrlink2](https://github.com/rozbo/hexo-abbrlink2), The upgraded version of this plugin, supports the orderly growth of ID is beta now.
+[https://github.com/rozbo/hexo-abbrlink2](https://github.com/rozbo/hexo-abbrlink2), supports the orderly growth of ID is beta now.
 The working principle of `hexo-abbrlink2` is different from this plug-in, not as an upgraded version of this plugin, they are different individuals.
 But `hexo-abbrlink2` is compatible with the previous configuration of this plugin.
 As a supplement to this plugin, use it only when you really need an orderly growing id.
