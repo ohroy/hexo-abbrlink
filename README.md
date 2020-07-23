@@ -4,7 +4,8 @@
 [![npm](https://img.shields.io/npm/dt/hexo-abbrlink.svg)](https://www.npmjs.com/package/hexo-abbrlink)
 
 A [Hexo plugin](https://hexo.io/plugins/) to generate static post link based on post titles.
-
+## Suggest
+[https://github.com/rozbo/hexo-abbrlink2](https://github.com/rozbo/hexo-abbrlink2), The upgraded version of this plugin, supports the orderly growth of ID is beta now.
 ## How to install
 
 Add plugin to Hexo:
