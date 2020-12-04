@@ -30,7 +30,7 @@ alg -- Algorithm (currently support crc16 and crc32, which crc16 is default)
 rep -- Represent (the generated link could be presented in hex or dec value)
 ```
 
-```
+```yml
 # abbrlink config
 abbrlink:
   alg: crc32      #support crc16(default) and crc32
