@@ -4,6 +4,8 @@
 [![npm](https://img.shields.io/npm/dt/hexo-abbrlink.svg)](https://www.npmjs.com/package/hexo-abbrlink)
 
 A [Hexo plugin](https://hexo.io/plugins/) to generate static post link based on post titles.
+Supports `.textbundle` -- a file format contents markdown and its assets. Actually, `.textbundle` file is a folder which shows like a file in Finder on macOS.
+
 ## Suggest
 [https://github.com/rozbo/hexo-abbrlink2](https://github.com/rozbo/hexo-abbrlink2), supports the orderly growth of ID is beta now.
 The working principle of `hexo-abbrlink2` is different from this plug-in, not as an upgraded version of this plugin, they are different individuals.
@@ -20,7 +22,9 @@ npm install hexo-abbrlink --save
 Modify permalink in config.yml file:
 
 ```
-permalink: posts/:abbrlink/
+permalink: posts/:abbrlink/ 
+# or
+permalink: posts/:abbrlink.html
 ```
 
 There are two settings:
@@ -44,7 +48,7 @@ abbrlink:
      over_write: false 
   auto_title: false #enable auto title, it can auto fill the title by path
   auto_date: false #enable auto date, it can auto fill the date by time today
-  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink. This only updates abbrlink rather than other front variables.
 ```
 
 ## Sample
