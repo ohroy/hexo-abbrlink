@@ -3,8 +3,9 @@
 [![npm](https://img.shields.io/npm/dy/hexo-abbrlink.svg)](https://www.npmjs.com/package/hexo-abbrlink)
 [![npm](https://img.shields.io/npm/dt/hexo-abbrlink.svg)](https://www.npmjs.com/package/hexo-abbrlink)
 
-A [Hexo plugin](https://hexo.io/plugins/) to generate static post link based on post titles.
-Supports `.textbundle` -- a file format contents markdown and its assets. Actually, `.textbundle` file is a folder which shows like a file in Finder on macOS.
+A [Hexo plugin](https://hexo.io/plugins/) to generate static post link based on title and data in the post front.
+
+This plugin supports `.textbundle` -- a file format contents markdown and its assets. Actually, `.textbundle` file is a folder which shows like a file in Finder on macOS.
 
 ## Suggest
 [https://github.com/rozbo/hexo-abbrlink2](https://github.com/rozbo/hexo-abbrlink2), supports the orderly growth of ID is beta now.
