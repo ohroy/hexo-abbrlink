@@ -28,28 +28,16 @@ permalink: posts/:abbrlink/
 permalink: posts/:abbrlink.html
 ```
 
-There are two settings:
-
-```
-alg -- Algorithm (currently support crc16 and crc32, which crc16 is default)
-rep -- Represent (the generated link could be presented in hex or dec value)
-```
+Configs in `_config.yml`:
 
 ```
 # abbrlink config
 abbrlink:
-  alg: crc32      #support crc16(default) and crc32
-  rep: hex        #support dec(default) and hex
-  drafts: false   #(true)Process draft,(false)Do not process draft. false(default) 
-  # Generate categories from directory-tree
-  # depth: the max_depth of directory-tree you want to generate, should > 0
-  auto_category:
-     enable: true  #true(default)
-     depth:        #3(default)
-     over_write: false 
-  auto_title: false #enable auto title, it can auto fill the title by path
-  auto_date: false #enable auto date, it can auto fill the date by time today
-  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink. This only updates abbrlink rather than other front variables.
+  alg: crc32      # Algorithm used to calc abbrlink. Support crc16(default) and crc32
+  rep: hex        # Representation of abbrlink in URLs. Support dec(default) and hex
+  drafts: false   # Whether to generate abbrlink for drafts. (false in default)
+  force: false    # Enable force mode. In this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had an abbrlink. (false in default)
+  writeback: true # Whether to write changes to front-matters back to the actual markdown files. (true in default)
 ```
 
 ## Sample
@@ -72,8 +60,6 @@ crc32 & dec
 https://post.zz173.com/posts/1690090958.html
 ```
 
-## Limitation
-[fixed] Maximum number of posts is 65535 for crc16. (now, if a abbrlink already exist, it will change another one and try again and again...) 
 ## More info
 
 see [this](https://post.zz173.com/detail/hexo-abbrlink.html)(Chinese)
