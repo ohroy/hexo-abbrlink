@@ -30,7 +30,7 @@ permalink: posts/:abbrlink.html
 
 Configs in `_config.yml`:
 
-```
+```yml
 # abbrlink config
 abbrlink:
   alg: crc32      # Algorithm used to calc abbrlink. Support crc16(default) and crc32
